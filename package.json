@@ -1,0 +1,35 @@
+{
+  "name": "pixelvault",
+  "version": "0.0.1",
+  "description": "📸 PixelVault: Seamless upload, download, and viewing of your memories, hosted on Google Drive. 🚀🔒🖼️",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raigon-pawa/PixelVault.git"
+  },
+  "keywords": [
+    "images",
+    "google-drive",
+    "image-hosting",
+    "google-drive-hosting",
+    "pixelvault",
+    "uploader",
+    "upload"
+  ],
+  "author": "raigon-pawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raigon-pawa/PixelVault/issues"
+  },
+  "homepage": "https://github.com/raigon-pawa/PixelVault#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "googleapis": "^122.0.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
